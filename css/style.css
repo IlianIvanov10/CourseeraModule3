@@ -1,15 +1,15 @@
 body{
-	background-color: #996633;
+	background-color: #48b9a6;
 }
 
 #header-nav {
-  background-color: #4dff4d;
+  background-color: #124c50;
   border-radius: 0;
   border-bottom: 1px solid black;
 }
 
 .navbar-brand h1{
- color: #0066ff;
+ color: #d8dfe8;
  margin-top: -10px;
  margin-bottom: 0;
 }
@@ -26,35 +26,38 @@ text-decoration: none;
 #collapsable-nav a, #collapsable-nav li{
 	list-style-type: none;
 	text-decoration: none;
-	color: #0066ff;
+	color: #d8dfe8;
 }
 
 #nav-list a{
-	color:#0066ff;
+	color:#d8dfe8;
 	text-align: center;
 }
 
-.chicken{
+.concerts{
 	text-align: right;
 }
 
-.beef{
+.news{
 	text-align: right;
 }
 
-.sushi{
+.artists{
 	text-align: right;
 }
 
 .text-center{
+	height: 45%;
+	width: 45%;
 	margin: 15px auto;
 	padding: 10px;
 }
 
 h4{
 	font-weight: bold;
+	color:#d8dfe8;
 }
-.random{
+.artist{
 	border-style: solid;
     border-width: 2px;
     height: 1000px
@@ -63,4 +66,9 @@ h4{
     text-align: center;
     margin: 15px auto;
     padding: 10px;
+}
+
+.artist img{
+	height: 35%;
+	width: 35%;
 }
